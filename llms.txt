@@ -1,0 +1,17 @@
+# graphql-middleware
+> GraphQL operation guard for a supplied AST: fragment-aware depth limit with cycle guard, per-field complexity scoring, operation allowlist/denylist, and introspection blocking. graphql-js is optional — accepts its document shape structurally, zero hard dependencies.
+
+A GraphQL operation guard that works on an already-parsed AST. It doesn't execute your schema and it doesn't require `graphql-js` — it accepts any object matching graphql-js's `DocumentNode` shape structurally, so if you
+
+## API
+- `guardOperation`
+- `measureDepth`
+- `computeComplexity`
+- `usesIntrospection`
+- `buildFragmentMap`
+- `FragmentCycleError`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
