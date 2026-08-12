@@ -1,4 +1,5 @@
 # graphql-middleware
+![CI](https://github.com/FerrowAI/graphql-middleware/actions/workflows/ci.yml/badge.svg)
 
 A GraphQL operation guard that works on an already-parsed AST. It doesn't
 execute your schema and it doesn't require `graphql-js` — it accepts any
