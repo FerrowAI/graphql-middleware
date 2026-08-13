@@ -1,4 +1,8 @@
 # graphql-middleware
+
+```sh
+npm install @ferrow/graphql-middleware
+```
 ![CI](https://github.com/FerrowAI/graphql-middleware/actions/workflows/ci.yml/badge.svg)
 
 A GraphQL operation guard that works on an already-parsed AST. It doesn't

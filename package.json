@@ -1,5 +1,5 @@
 {
-  "name": "graphql-middleware",
+  "name": "@ferrow/graphql-middleware",
   "version": "2.0.0",
   "description": "GraphQL operation guard for a supplied AST: fragment-aware depth limit with cycle guard, per-field complexity scoring, operation allowlist/denylist, and introspection blocking. graphql-js is optional — accepts its document shape structurally, zero hard dependencies.",
   "main": "dist/src/index.js",
